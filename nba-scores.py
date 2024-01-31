@@ -18,3 +18,6 @@ def get_scoreboard():
     data = get(BASE_URL + scoreboard).json()
     
     printer.pprint(data)
+
+
+get_scoreboard()
